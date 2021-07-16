@@ -1,0 +1,252 @@
+@import url("fonts/Montserrat-Bold.ttf");
+@import url("fonts/Montserrat-Regular.ttf");
+
+*{
+    
+}
+body{
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+.contaner{
+    margin:auto;
+    margin-top: 4rem;
+    width: 40rem;
+    height: 52rem;
+    border:rgb(138, 134, 128) solid 6px;
+    border-radius: 20px ;
+    background-color: rgb(155, 161, 179);
+
+}
+
+.dateContaner{
+    background-color: rgb(177, 174, 168);
+    position: relative;
+    top: 1rem;
+    border-radius: 5px;
+    border:rgb(0, 0, 0) solid;
+    margin: 2rem 20rem 0rem 2rem;
+    height: 2.4rem;
+    width: 35rem;
+
+}
+
+#dateText{
+    font-size: 30px;
+    margin-left: 2.1rem;
+
+}
+
+#dateListYear{
+    font-size: 20px;
+    background-color: rgb(212, 201, 179);
+    border:rgb(0, 0, 0) solid 2px;
+    border-radius: 5px;
+
+}
+
+#dateListMonth{
+    font-size: 20px;
+    background-color: rgb(212, 201, 179);
+    border:rgb(0, 0, 0) solid 2px;
+    border-radius: 5px;
+
+}
+
+#dateListDay{
+    font-size: 20px;
+    background-color: rgb(212, 201, 179);
+    border:rgb(0, 0, 0) solid 2px;
+    border-radius: 5px;
+
+}
+
+
+.line{
+    position: relative;
+    top: -1rem;
+    margin: auto;
+    margin-top: 5rem;
+    width: 28rem;
+    height: 0.05rem;
+    background-color: rgb(0, 0, 0);
+}
+/*age view contaner*/
+
+
+.ageText{
+    font-size: 70px;
+    margin: 2rem 0 0 7.2rem
+}
+
+#ageViewYears{
+    font-size: 55px;
+    margin: 0 0 0 7rem
+}
+
+.yearTextView{ 
+    font-size: 22px;
+    position: relative;
+    top: -2.5rem;
+    left: 11.5rem;
+}
+
+#viewMonthDay{
+    margin: -1rem 0 0 7.5rem ;
+    font-size: 16px;
+}
+
+.Vline{
+    background-color: rgb(0, 0, 0);
+    height: 12rem;
+    width: 0.09rem;
+    position: relative;
+    top: -11rem;
+    left: 20rem;
+}
+
+.nextBDText{
+    position: relative;
+    top: -21rem;
+    left: 23rem;
+    font-size: 25px;
+
+}
+
+.cakePng{
+    position: relative;
+    top: -20.2rem;
+    left: 25.7rem;
+    width: 40px;
+    height: 40px;
+}
+#nextBDDayText{
+    position: relative;
+    top: -20rem;
+    left: 24.3rem;
+    font-size: 25px;
+}
+
+#nextBDMonthDay{
+    position: relative;
+    top: -19.3rem;
+    left: 23.6rem;
+    font-size: 16px;
+}
+
+.Hline{
+    position: relative;
+    top: -20rem;
+    margin: auto;
+    margin-top: 5rem;
+    width: 28rem;
+    height: 0.05rem;
+    background-color: rgb(0, 0, 0);
+}
+
+.summaryText{
+    font-size: 40px;
+    position: relative;
+    top: -18rem;
+    left: 15.3rem;
+}
+
+.summaryYearsText{
+    font-size: 24px;
+    position: relative;
+    top: -17rem;
+    left: 7.5rem;
+}
+
+.summaryMonthsText{
+    font-size: 24px;
+    position: relative;
+    top: -18.7rem;
+    left: 17.5rem;
+}
+
+.summaryWeeksText{
+    font-size: 24px;
+    position: relative;
+    top: -20rem;
+    left: 29.5rem;
+}
+
+.summaryDaysText{
+    font-size: 24px;
+    position: relative;
+    top: -16.6rem;
+    left: 7.5rem;
+   
+}
+
+.summaryHoursText{
+    font-size: 24px;
+    position: relative;
+    top: -18.1rem;
+    left: 17.5rem;
+}
+
+.summaryMinutesText{
+    font-size: 24px;
+    position: relative;
+    top: -19.7rem;
+    left: 29.5rem;
+}
+/*-------------------------------*/
+
+#summaryYearsView{
+    font-size: 24px;
+    position: relative;
+    top: -25rem;
+    left: 8rem;
+}
+
+#summaryMonthsView{
+    font-size: 24px;
+    position: relative;
+    top: -26.5rem;
+    left: 18.5rem;
+}
+
+#summaryWeeksView{
+    font-size: 24px;
+    position: relative;
+    top: -28rem;
+    left: 30rem;
+}
+
+#summaryDaysView{
+    font-size: 24px;
+    position: relative;
+    top: -24.5rem;
+    left: 7.5rem;
+}
+
+#summaryHoursView{
+    font-size: 24px;
+    position: relative;
+    top: -26rem;
+    left: 17rem;
+}
+
+#summaryMinutesView{
+    font-size: 24px;
+    position: relative;
+    top: -27.5rem;
+    left: 29rem;
+}
+
+
+#ShowAge{
+    text-align: center;
+    position: relative;
+    top: -23rem;
+    left: 15rem;
+    background-color: rgb(177, 174, 168);
+    width: 10rem;
+    height: 2.5rem;  
+    border-radius: 5px;
+    border: black solid;
+    font-size: 25px;
+}
